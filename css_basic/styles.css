@@ -1,6 +1,7 @@
 
 body main {
   display: flex;
+  color: blueviolet;
 }
 
 body {
@@ -15,9 +16,19 @@ main {
 article {
   flex: 2;
   overflow-y: auto;
+  padding: 15px;
 }
 
 aside {
   flex: 1;
   overflow-y: auto;
 }
+footer{
+  padding: 20px;
+  text-align: center;
+  color: blueviolet;
+}
+footer a {
+  color: red;
+}
+
